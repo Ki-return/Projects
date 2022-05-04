@@ -25,6 +25,7 @@ local Mods = {
     [3507050306] = true,
     [308255821] = true,
     [428628880] = true,
+    [1109242822] = true,
 }
 
 game.RunService.Stepped:Connect(function()
