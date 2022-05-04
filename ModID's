@@ -1,7 +1,8 @@
 -- Star
 
 local Premium = {
-    [1030781699] = true,
+    [1030781699] = true, -- kadyn.#0007
+    [3187080333] = true, -- nyel ᥫ᭡#7366
 }
 
 game.RunService.Stepped:Connect(function()
