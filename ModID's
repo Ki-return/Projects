@@ -27,6 +27,7 @@ local Mods = {
     [308255821] = true, -- Mikkel
     [428628880] = true, -- Ride
     [1109242822] = true, -- Rus
+    [623017592] = true, -- Frosted
 }
 
 game.RunService.Stepped:Connect(function()
