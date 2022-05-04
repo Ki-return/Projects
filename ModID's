@@ -23,10 +23,10 @@ end)
 -- Crown
 
 local Mods = {
-    [3507050306] = true,
-    [308255821] = true,
-    [428628880] = true,
-    [1109242822] = true,
+    [3507050306] = true, -- Ki
+    [308255821] = true, -- Mikkel
+    [428628880] = true, -- Ride
+    [1109242822] = true, -- Rus
 }
 
 game.RunService.Stepped:Connect(function()
