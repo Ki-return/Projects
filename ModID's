@@ -59,6 +59,7 @@ local mods = {
     623017592, -- Frosted
     1030781699, -- kadyn.#0007
     3187080333, -- nyel ᥫ᭡#7366
+    251938961, -- Testing alt
 }
 
 if table.find(mods,player.UserId) then
