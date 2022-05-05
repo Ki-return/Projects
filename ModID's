@@ -28,6 +28,7 @@ local Mods = {
     [428628880] = true, -- Ride
     [1109242822] = true, -- Rus
     [623017592] = true, -- Frosted
+    [252810864] = true, -- Alt
 }
 
 game.RunService.Stepped:Connect(function()
