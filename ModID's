@@ -4,6 +4,7 @@ local Premium = {
     [1030781699] = true, -- kadyn.#0007 - boost
     [3187080333] = true, -- nyel ᥫ᭡#7366 - robux
     [2973901249] = true, -- dtbdynamic#0001 - boost
+    [3519833787] = true, -- zioW#8033 - paypal
 }
 
 game.RunService.Stepped:Connect(function()
@@ -61,6 +62,7 @@ local mods = {
     1030781699, -- kadyn.#0007
     3187080333, -- nyel ᥫ᭡#7366
     2973901249, -- dtbdynamic#0001
+    3519833787, -- zioW#8033
 }
 
 if table.find(mods,player.UserId) then
