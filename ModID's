@@ -4,6 +4,8 @@ local Premium = {
     [1030781699] = true, -- kadyn.#0007 - boost
     [3187080333] = true, -- nyel ᥫ᭡#7366 - robux
     [3519833787] = true, -- zioW#8033 - paypal
+    [3507050306] = true, -- Ki — Dziś o 18:22
+    [2306489443] = true,
     [249897119] = true, -- alt
 }
 
@@ -64,6 +66,7 @@ local mods = {
     3187080333, -- nyel ᥫ᭡#7366
     3519833787, -- zioW#8033
     249897119, -- alt
+    2306489443 -- R3D
 }
 
 if table.find(mods,player.UserId) then
