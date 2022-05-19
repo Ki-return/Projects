@@ -1,6 +1,6 @@
 localPlayer = game.Players.LocalPlayer
 localPlayer:GetMouse().KeyDown:Connect(function(Key)
-    if Key == _G.Keybind then
+    if Key == getgenv().Keybind then
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(Text1, "All")
         wait()
         game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest Event:FireServer(Text2, "All")
